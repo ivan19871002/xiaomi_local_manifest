@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="kyasu"
+           fetch="https://github.com/kyasu/"/>
+
+	<remote  name="git"
+           fetch="https://github.com/" />
+
+	<!--// Device tree //-->
+	<!-- clover -->
+	<project name="android_device_xiaomi_clover" path="device/xiaomi/clover" remote="kyasu" revision="lineage-19.1"/>
+	<!-- sdm660-Common-->
+    <project name="android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="kyasu" revision="lineage-19.1"/>
+
+	<!--// Kernel //-->
+    <project name="android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="kyasu" revision="lineage-19.1" />
+
+	<!--// Vendor //-->
+	<!-- clover -->
+	<project name="android_vendor_xiaomi_clover" path="vendor/xiaomi/clover" remote="kyasu" revision="lineage-19.1"/>
+	<!-- sdm660-common -->
+    <project name="android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="kyasu" revision="lineage-19.1"/>
+
+</manifest>
