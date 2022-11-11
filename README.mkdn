@@ -3,5 +3,5 @@ Getting Started
 
 To initialize your local repository using the AOSP manifest, use commands like these:
 
-    repo init -u https://github.com/LineageOS/android.git -b lineage-19.1
-    curl -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/ivan19871002/xiaomi_local_manifest/lineageos-19.1/local_manifest.xml
+    repo init -u https://github.com/LineageOS/android.git -b lineage-20.0
+    curl -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/ivan19871002/xiaomi_local_manifest/lineageos-20.0/local_manifest.xml
