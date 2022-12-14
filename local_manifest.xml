@@ -24,7 +24,7 @@
 
     <project name="LineageOS/android_device_xiaomi_perseus" path="device/xiaomi/preseus" remote="git" revision="lineage-20" />"
     <project name="LineageOS/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="git" revision="lineage-20" />"
-    <project name="LineageOS/android_kernel_xiaomi_sdm845" path="device/xiaomi/sdm845" remote="git" revision="lineage-20" />"
+    <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="git" revision="lineage-20" />"
     <project name="TheMuppets/proprietary_vendor_xiaomi_perseus" path="vendor/xiaomi/perseus" remote="git" revision="lineage-20" />
     <project name="TheMuppets/proprietary_vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="git" revision="lineage-20" />
     <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="git" revision="lineage-20" />
