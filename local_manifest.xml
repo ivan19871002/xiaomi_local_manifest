@@ -4,26 +4,26 @@
            fetch="https://github.com/"
            revision="refs/heads/lineage-21" />
 
-    <!--// Device tree //-->
+    <!-- XiaoMi -->
     <!-- clover -->
     <project name="kyasu/android_device_xiaomi_clover" path="device/xiaomi/clover" remote="git" />
-    <!-- sdm660-Common-->
     <project name="kyasu/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="git" />
-
-    <!--// Kernel //-->
     <project name="kyasu/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="git" />
-
-    <!--// Vendor //-->
-    <!-- clover -->
     <project name="kyasu/android_vendor_xiaomi_clover" path="vendor/xiaomi/clover" remote="git" />
-    <!-- sdm660-common -->
     <project name="kyasu/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="git" />
 
+    <!-- perseus -->
     <project name="LineageOS/android_device_xiaomi_perseus" path="device/xiaomi/perseus" remote="git" />"
     <project name="LineageOS/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="git" />"
     <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="git" />"
     <project name="TheMuppets/proprietary_vendor_xiaomi_perseus" path="vendor/xiaomi/perseus" remote="git" />
     <project name="TheMuppets/proprietary_vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="git" />
-    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="git" />
 
+    <!-- gauguin -->
+    <project name="LineageOS/android_device_xiaomi_gauguin" path="device/xiaomi/gauguin" remote="git" />"
+    <project name="LineageOS/android_kernel_xiaomi_gauguin" path="kernel/xiaomi/gauguin" remote="git" />"
+    <project name="TheMuppets/proprietary_vendor_xiaomi_gauguin" path="vendor/xiaomi/gauguin" remote="git" />
+
+    <!-- Hardware -->
+    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="git" />
 </manifest>
