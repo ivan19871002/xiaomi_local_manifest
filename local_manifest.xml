@@ -13,12 +13,13 @@
     <project name="kyasu/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="git" />
 
     <!-- perseus -->
+    <!--
     <project name="LineageOS/android_device_xiaomi_perseus" path="device/xiaomi/perseus" remote="git" />"
     <project name="LineageOS/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="git" />"
     <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="git" />"
     <project name="TheMuppets/proprietary_vendor_xiaomi_perseus" path="vendor/xiaomi/perseus" remote="git" />
     <project name="TheMuppets/proprietary_vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="git" />
-
+    -->
     <!-- gauguin -->
     <!--
     <project name="LineageOS/android_device_xiaomi_gauguin" path="device/xiaomi/gauguin" remote="git" />"
